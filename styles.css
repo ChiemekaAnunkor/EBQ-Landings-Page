@@ -1,0 +1,376 @@
+/* reset the body and html */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family:  sans-serif;
+
+}
+
+
+/* navbar  */
+.topnav {
+    padding-top: 30px;
+    background-color: #EBF4FF;
+    overflow: hidden;
+  }
+  
+
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    color: black;
+  }
+
+  .nav-button {
+    background-color: #2979EC;
+    border: none;
+    border-radius: 40px;
+    font-size: 20px;
+    padding: 12px 30px 12px 30px;
+    color: white;
+    transition-duration: 0.4s;
+
+  }
+
+  .nav-button:hover{
+    background-color: #FFC13C;
+    color: #0A459E;
+  }
+  .left {
+    flex: 1;
+    align-items: center;
+    justify-content: left;
+    display: flex;
+    gap: 2rem;
+    margin-left: 2rem;
+    
+}
+
+.right{
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-end;
+  font-weight: 400;
+  margin-right: 2rem;
+  margin-top: 2rem;
+}
+
+.wrapper {
+  height: 10vh;
+  display: flex ;
+  justify-content: space-between;
+  top: 0;
+  padding-bottom : 40px;
+}
+
+ /* intro */
+
+ .i-wrapper{
+  background-color:#EBF4FF;
+  padding-top: 1rem;
+
+}
+
+.i-row {
+  display: flex;
+  margin-left: 7rem;
+  padding-bottom: 3rem ;
+  
+}
+
+.i-column {
+  flex: 50%;
+}
+.i {
+  font-size: 40px;
+}
+.m {
+  font-size: 40px;
+  font-weight: bold;
+}
+.a-p{
+  font-size: 25px;
+
+}
+
+
+/* service */
+
+.s-wrapper{
+    background-color:#fdfdfd;
+    margin-top: 3rem;
+    overflow: hidden;
+
+
+}
+
+.row {
+    display: flex;
+    margin-left: 7rem;
+  }
+  
+  .column {
+    flex: 50%;
+  }
+ 
+.image {
+    margin-left: 10px;
+    margin-top: -80px;
+
+}
+
+/* purpose */
+
+.p-wrapper{
+    background-color:#fdfdfd;
+    margin-top: 2rem;
+    overflow: hidden;
+    margin-bottom: 2rem;
+
+
+}
+
+.p-row {
+    display: flex;
+    margin-left: 2rem;
+  }
+  
+  .p-column {
+    flex: 50%;
+    margin-left: 2.5rem;
+
+  }
+
+
+
+
+/* footer  */
+.f-wrapper {
+    background-color: #0A459E;
+    width: 100%;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    margin-top: 1rem;
+  }
+  
+  /* Style the links inside the navigation bar */
+
+  
+  .center {
+    text-align: center;
+    width: 100%;
+  }
+  .f-text {
+      color: white;
+  }
+ 
+
+  .f-button {
+    background-color: #FFBE3C;
+    border: none;
+    border-radius: 40px;
+    font-size: 20px;
+    padding: 12px 30px 12px 30px;
+    color: #0A459E;
+    font-weight: bold;
+    margin-top: 2rem;
+
+  }
+
+  .f-button:hover{
+    background-color: #f5a801;
+    color: #2173ec;
+  }
+  img{
+    width: 350px;
+    height:350px;
+  }
+.img{
+  width: 80px !important;
+  height: 100px !important;
+  margin-top: 40px;
+
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; 
+  padding: 20px;
+  border: 1px solid #888;
+  width: 30%;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+
+}
+
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=tel] {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=tel]:focus {
+  background-color: #ddd;
+  outline: none;
+  width: 90%;
+
+}
+
+/* Set a style for the submit/login button */
+.form-container .submitbutton {
+  background-color: #FFBE3C;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+  border-radius: 40px;
+}
+/* disply thank you message */
+.form-container .thankyou{
+  display: none;
+}
+
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+  .nav-button{
+    font-size: 15px;
+  }
+ 
+
+.left {
+  margin-top: 0px;
+}
+
+
+
+.i-row {
+  display: flex;
+  margin-left: 1rem;
+  padding-bottom: 1rem ;
+  
+}
+
+
+.image {
+  margin-left: 10px;
+  margin-top: 0px;
+
+}
+
+/* servies */
+
+.s-wrapper{
+  background-color:#fdfdfd;
+  margin-top: 1rem;
+  overflow: hidden;
+
+
+}
+
+.row {
+  display: flex;
+  margin-left: 1rem;
+}
+
+.i {
+font-size: 20px;
+}
+.m {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+img{
+  width: 150px;
+  height:150px;
+}
+.a-p{
+  font-size: 15px;
+
+}
+
+
+/* purpose */
+
+.p-wrapper{
+  background-color:#fdfdfd;
+  margin-top: 1rem;
+  overflow: hidden;
+
+
+}
+
+.p-row {
+  display: flex;
+  margin-left: -1rem;
+}
+
+.p-column {
+  flex: 50%;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+
+}
+
+
+/* footer  */
+.f-wrapper {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+
+}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+  .p-column {
+    flex: 50%;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  
+  }
+}
+
