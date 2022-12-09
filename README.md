@@ -1,3 +1,3 @@
 # EBQ-Landings-Page
 
-Deployed Link: 
+Deployed Link: https://chiemekaanunkor.github.io/EBQ-Landings-Page/
